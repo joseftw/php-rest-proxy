@@ -20,7 +20,7 @@ $.ajax({
 
 GET
 ```
-$.get( "index.php?url=http://www.arsenal.com", function( data ) {
+$.get( "index.php?url=https://www.facebook.com", function( data ) {
   console.log(data);
 });
 ```
