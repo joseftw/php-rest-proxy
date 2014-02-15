@@ -7,13 +7,11 @@ Example Requests:
 
 POST
 ```
-var player = {};
-player.Name = 'Zlatan Ibrahimovic';
 
 $.ajax({
    url: 'index.php?url=http://www.arsenal.com/addPlayer/',
    type: 'POST',
-   data: { data: JSON.stringify(player) },
+   data: { name: 'Zlatan Ibrahimovic' },
    success: function(data) {
      console.log(data);
    }
@@ -29,13 +27,10 @@ $.get( "index.php?url=http://www.arsenal.com", function( data ) {
 
 PUT
 ```
-var player = {};
-player.Goals = 10000;
-
 $.ajax({
    url: 'index.php?url=http://www.arsenal.com/players/10',
    type: 'PUT',
-   data: JSON.stringify(player),
+   data: { goals: 10000},
    success: function(data) {
      console.log(data);
    }
