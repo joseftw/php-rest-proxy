@@ -1,7 +1,7 @@
-rest-proxy
+PHP REST-Proxy
 ==========
 
-Simple PHP Rest-proxy, supports GET, POST, PUT and DELETE
+Simple PHP REST-proxy, supports GET, POST, PUT and DELETE
 
 Example Requests:
 
