@@ -6,7 +6,7 @@ Simple PHP Rest-proxy, supports GET, POST, PUT and DELETE
 Example Requests:
 
 POST
-```jQuery
+```javascript
 
 $.ajax({
    url: 'index.php?url=http://www.arsenal.com/addPlayer/',
@@ -26,7 +26,7 @@ $.get( "index.php?url=https://www.facebook.com", function( data ) {
 ```
 
 PUT
-```
+```javascript
 $.ajax({
    url: 'index.php?url=http://www.arsenal.com/players/10',
    type: 'PUT',
@@ -38,7 +38,7 @@ $.ajax({
 ```
 
 DELETE
-```
+```javascript
 $.ajax({
     url: 'index.php?url=http://www.manutd.com/players/10',
     type: 'DELETE',
